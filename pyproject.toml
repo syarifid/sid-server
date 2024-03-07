@@ -1,0 +1,18 @@
+[project]
+name = "siopapua"
+version = "0.1.0"
+description = "Pendataan Orang Asli Papua"
+authors = [
+    {name = "Muhammad Syarifudin", email = "muhammad.el.syarifudin@gmail.com"},
+]
+dependencies = [
+    "django>=5.0.3",
+    "granian>=1.1.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
